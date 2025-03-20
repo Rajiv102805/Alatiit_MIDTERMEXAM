@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/w3css/3/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<body>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+background-color: grey;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div class="topnav">
+<  <a class="active" href="#home">HOME</a>
+  <a href="#news">GALLERY</a>
+  <a href="#contact">CONTACT</a>
+  <a href="#about">REGISTER</a>
+</div>
+<br><img src="logo.jpeg" "align-right;"></br>
+<hr>
+<center><h1> ABOUT COMPANY<h1>
+<h1> I. Basic Information & Company Overview:</h1>
+<p>Company Name: The official, registered name of the business. 
+Location: Where the company is headquartered or conducts business.<br>
+Type of Business Structure: Whether it's a sole proprietorship, partnership, corporation, or LLC.<br>
+Company History: A brief overview of the company's founding, key milestones, and growth.<br> 
+Mission and Vision: A clear statement of the company's purpose and long-term goals. <br>
+Core Values: The guiding principles that shape the company's culture and decision-making. </p>
+
+<h1>II. Products/Services & Offerings:</h1>
+<center> <p> Detailed Description: Explain what the company does, what products or services it offers, and how they benefit customers.<p></center>
+<center> <p> Target Market: Identify the specific audience the company serves.<p></center>
+<center> <p>Unique Selling Points: Highlight what makes the company and its offerings stand out from the competition. <p></center>
+
+<h1> III. Team & Management:</h1>  
+<center> <p>Key Personnel: Introduce the management team and their roles, highlighting their experience and expertise.</center> </p>
+<center> <p>Organizational Structure: Provide an overview of the company's hierarchy and reporting structure. </center> </p>
+
+<h1>IV. Financials & Performance (if applicable):</h1>  
+<center> <p> Financial Projections: Outline the company's financial goals and expected performance. </center> </p>
+<center> <p> Funding Request: If seeking funding, include a section outlining the amount needed and how it will be used. </center> </p>
+<center> <p> Awards and Recognition: List any awards or certifications the company has received. </center> </p>
+<center> <p> Client List and Testimonials: Showcase notable clients and their positive feedback. </center> </p>
+<hr>
+<br><br>
+<center><p> SOCIAL MEDIA ICONS</p></center>
+<center><p> ALL RIGHTS RESERVED 2025</p></center>
+<center><p> CREATED BY: RAJIV ALATI-IT</p></center>
+
+
+
+
+
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>
+
